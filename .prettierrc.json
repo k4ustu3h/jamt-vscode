@@ -1,0 +1,20 @@
+{
+    "printWidth": 80,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "trailingComma": "all",
+    "overrides": [
+        {
+            "files": "*.js",
+            "options": {
+                "trailingComma": "es5"
+            }
+        },
+        {
+            "files": ["*.yml", "*.yaml"],
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
+}

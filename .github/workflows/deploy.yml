@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
-        with: 
+        with:
           node-version: lts/*
           cache: npm
       - run: npm install

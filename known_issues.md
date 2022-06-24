@@ -6,29 +6,29 @@ If you don't see your issue reported below, then please open an issue here and l
 
 ## Fixes Pending
 
-- `scss`: Broken highlighting for properties sharing selector names atom/language-sass#234
-- `less`: Mixin parameters and guards fully scoped and highlighted. atom/language-less#82
-- `php`: Ternary and null coalescing operator highlighting. atom/language-php#285
+-   `scss`: Broken highlighting for properties sharing selector names atom/language-sass#234
+-   `less`: Mixin parameters and guards fully scoped and highlighted. atom/language-less#82
+-   `php`: Ternary and null coalescing operator highlighting. atom/language-php#285
 
 ## Contents
 
-- [C++](#c++)
-- [C#](#c-sharp)
-- [Clojure](#clojure)
-- [Coffeescript](#coffeescript)
-- [F#](#f-sharp)
-- [Go](#go)
-- [Java](#java)
-- [Makefile](#makefile)
-- [Objective-C](#objective-c)
-- [Perl](#perl)
-- [Powershell](#powershell)
-- [Python](#python)
-- [R](#r)
-- [Ruby](#ruby)
-- [Rust](#rust)
-- [Shell](#shell)
-- [Swift](#swift)
+-   [C++](#c++)
+-   [C#](#c-sharp)
+-   [Clojure](#clojure)
+-   [Coffeescript](#coffeescript)
+-   [F#](#f-sharp)
+-   [Go](#go)
+-   [Java](#java)
+-   [Makefile](#makefile)
+-   [Objective-C](#objective-c)
+-   [Perl](#perl)
+-   [Powershell](#powershell)
+-   [Python](#python)
+-   [R](#r)
+-   [Ruby](#ruby)
+-   [Rust](#rust)
+-   [Shell](#shell)
+-   [Swift](#swift)
 
 ## C++
 

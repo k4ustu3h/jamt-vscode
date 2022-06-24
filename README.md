@@ -1,26 +1,30 @@
-# Dracula for [Visual Studio Code](http://code.visualstudio.com)
+# Just Another Material Theme for [Visual Studio Code](http://code.visualstudio.com)
 
-> A dark theme for [Visual Studio Code](http://code.visualstudio.com).
+![Logo](https://raw.githubusercontent.com/k4ustu3h/jamt-vscode/main/icon.png)
 
-![Screenshot](https://raw.githubusercontent.com/dracula/visual-studio-code/master/screenshot.png)
+> A dark(er) theme inspired by [Dracula](draculatheme.com) but with [Material](https://material.io/design/color/the-color-system.html#tools-for-picking-colors) colors for [Visual Studio Code](http://code.visualstudio.com).
+
+![Screenshot](https://raw.githubusercontent.com/k4ustu3h/jamt-vscode/main/screenshot.png)
 
 ## Install
 
-All instructions can be found at [draculatheme.com/visual-studio-code](https://draculatheme.com/visual-studio-code).
+All instructions can be found at [Install.md](https://github.com/k4ustu3h/jamt-vscode/blob/main/INSTALL.md).
 
 ## Team
 
-This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/visual-studio-code/graphs/contributors).
+This theme was forked and is maintained by the following person.
 
-[![Derek S.](https://avatars3.githubusercontent.com/u/5240018?v=3&s=70)](https://github.com/dsifford) |
-:---: |
-[Derek S.](https://github.com/dsifford) |
+| [![Kaustubh Ladiya](https://avatars.githubusercontent.com/u/49553711?v=4&s=96)](https://github.com/k4ustu3h) |
+| :----------------------------------------------------------------------------------------------------------: |
+|                                [Kaustubh Ladiya](https://github.com/k4ustu3h)                                |
 
-## Community
+## Original Dracula Theme
 
-* [Twitter](https://twitter.com/draculatheme) - Best for getting updates about themes and new stuff.
-* [GitHub](https://github.com/dracula/dracula-theme/discussions) - Best for asking questions and discussing issues.
-* [Discord](https://draculatheme.com/discord-invite) - Best for hanging out with the community.
+This theme was originally created by the following person and a bunch of [awesome contributors](https://github.com/dracula/visual-studio-code/graphs/contributors).
+
+| [![Derek S.](https://avatars3.githubusercontent.com/u/5240018?v=3&s=72)](https://github.com/dsifford) |
+| :---------------------------------------------------------------------------------------------------: |
+|                                [Derek S.](https://github.com/dsifford)                                |
 
 ## Contributing
 

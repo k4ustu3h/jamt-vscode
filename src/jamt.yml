@@ -8,40 +8,40 @@ semanticHighlighting: true
 jamt:
   base:
     - &background '#212121' # Gray 900
+    - &comment '#424242' # Gray 800
     - &foreground '#EEEEEE' # Gray 200
+    - &materialDarkBackground '#121212'
     - &primary '#D50000' # Red A700
     - &secondary '#2962FF' # Blue A700
     - &selection '#616161' # Gray 700
-    - &comment '#424242' # Gray 800
+  materialColors:
     - &blueA400 '#448AFF'
+    - &cyanA200 '#18FFFF'
+    - &cyanA400 '#00E5FF'
+    - &greenA200 '#69F0AE'
     - &greenA400 '#00E676'
     - &orangeA400 '#FF9100'
-    - &pinkA400 '#F50057'
-    - &purpleA400 '#D500F9'
-    - &redA400 '#FF1744'
-    - &yellowA400 '#FFEA00'
-  materialColors:
-    - &materialDarkBackground '#121212'
-    - &cyanA400 '#00E5FF'
-    - &redA200 '#FF5252'
-    - &greenA200 '#69F0AE'
-    - &yellowA200 '#FFFF00'
-    - &purpleA200 '#E040FB'
     - &pinkA200 '#FF4081'
-    - &cyanA200 '#18FFFF'
+    - &pinkA400 '#F50057'
+    - &purpleA200 '#E040FB'
+    - &purpleA400 '#D500F9'
+    - &redA200 '#FF5252'
+    - &redA400 '#FF1744'
+    - &yellowA200 '#FFFF00'
+    - &yellowA400 '#FFEA00'
   brightOther:
     # Temporary (awaiting fix)
-    - &tempQuotes '#E9F284'
     - &tempPropertyQuotes '#8BE9FE'
+    - &tempQuotes '#E9F284'
   other:
     - &lineHighlight '#44475A75'
     - &nonText '#FFFFFF1A'
-    - &white '#FFFFFF'
     - &tabDropBackground '#61616170'
+    - &white '#FFFFFF'
     # UI Variants
-    - &backgroundLight '#263238'
     - &backgroundDarker '#080808'
     - &backgroundDarkest '#000000'
+    - &backgroundLight '#263238'
 
 # User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
 colors:

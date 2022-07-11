@@ -30,14 +30,17 @@
         "Themes"
     ],
     "keywords": [
-        "jamt",
+        "color-theme",
+        "dark-theme",
         "dark",
+        "jamt",
+        "material-design",
         "theme",
-        "color-theme"
+        "vscode-theme"
     ],
     "icon": "icon.png",
     "galleryBanner": {
-        "color": "#3c4557",
+        "color": "#121212",
         "theme": "dark"
     },
     "contributes": {
@@ -50,7 +53,7 @@
         ]
     },
     "devDependencies": {
-        "eslint": "8.18.0",
+        "eslint": "8.19.0",
         "js-yaml": "4.1.0",
         "prettier": "2.7.1",
         "vsce": "2.9.2"

@@ -10,7 +10,67 @@
 
 All instructions can be found at [Install.md](https://github.com/k4ustu3h/jamt-vscode/blob/main/INSTALL.md).
 
-## Team
+## Links
+
+> [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=k4ustu3h.theme-jamt)
+
+<div align="center">
+    <a
+        href="https://marketplace.visualstudio.com/items?itemName=k4ustu3h.theme-jamt&ssr=false#version-history"
+    >
+        <img
+            alt="Visual Studio Marketplace Version"
+            src="https://img.shields.io/visual-studio-marketplace/v/k4ustu3h.theme-jamt?style=for-the-badge"
+        />
+    </a>
+    <a
+        href="https://marketplace.visualstudio.com/items/k4ustu3h.theme-jamt/changelog"
+    >
+        <img
+            alt="Visual Studio Marketplace Last Updated"
+            src="https://img.shields.io/visual-studio-marketplace/last-updated/k4ustu3h.theme-jamt?style=for-the-badge"
+        />
+    </a>
+    <img
+        alt="Visual Studio Marketplace Downloads"
+        src="https://img.shields.io/visual-studio-marketplace/d/k4ustu3h.theme-jamt?style=for-the-badge"
+    />
+    <a
+        href="https://marketplace.visualstudio.com/items?itemName=k4ustu3h.theme-jamt&ssr=false#review-details"
+    >
+        <img
+            alt="Visual Studio Marketplace Rating (Stars)"
+            src="https://img.shields.io/visual-studio-marketplace/stars/k4ustu3h.theme-jamt?style=for-the-badge"
+        />
+    </a>
+</div>
+
+> [OpenVSX Registry](https://open-vsx.org/extension/k4ustu3h/theme-jamt)
+
+<div align="center">
+    <img
+        alt="Open VSX Version"
+        src="https://img.shields.io/open-vsx/v/k4ustu3h/theme-jamt?style=for-the-badge"
+    />
+    <a href="https://open-vsx.org/extension/k4ustu3h/theme-jamt/changes">
+        <img
+            alt="Open VSX Release Date"
+            src="https://img.shields.io/open-vsx/release-date/k4ustu3h/theme-jamt?style=for-the-badge"
+        />
+    </a>
+    <img
+        alt="Open VSX Downloads"
+        src="https://img.shields.io/open-vsx/dt/k4ustu3h/theme-jamt?style=for-the-badge"
+    />
+    <a href="https://open-vsx.org/extension/k4ustu3h/theme-jamt/reviews">
+        <img
+            alt="Open VSX Rating (Stars)"
+            src="https://img.shields.io/open-vsx/stars/k4ustu3h/theme-jamt?style=for-the-badge"
+        />
+    </a>
+</div>
+
+## Author
 
 This theme was forked and is maintained by the following person.
 
@@ -18,7 +78,7 @@ This theme was forked and is maintained by the following person.
 | :----------------------------------------------------------------------------------------------------------: |
 |                                [Kaustubh Ladiya](https://github.com/k4ustu3h)                                |
 
-## Original Dracula Theme
+## [Original Dracula Theme](https://github.com/dracula/visual-studio-code)
 
 This theme was originally created by the following person and a bunch of [awesome contributors](https://github.com/dracula/visual-studio-code/graphs/contributors).
 

@@ -2,7 +2,7 @@
 
 ![Logo](https://raw.githubusercontent.com/k4ustu3h/jamt-vscode/main/icon.png)
 
-> A dark(er) theme inspired by [Dracula](draculatheme.com) but with [Material](https://material.io/design/color/the-color-system.html#tools-for-picking-colors) colors for [Visual Studio Code](http://code.visualstudio.com).
+> A dark(er) theme inspired by [Dracula](https://draculatheme.com) but with [Material](https://material.io/design/color/the-color-system.html#tools-for-picking-colors) colors for [Visual Studio Code](http://code.visualstudio.com).
 
 ![Screenshot](https://raw.githubusercontent.com/k4ustu3h/jamt-vscode/main/screenshot.png)
 

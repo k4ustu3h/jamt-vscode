@@ -32,11 +32,10 @@ jamt:
     - &redA400 '#FF1744'
     - &yellowA200 '#FFFF00'
     - &yellowA400 '#FFEA00'
-  other:
-    - &indentation '#FFFFFF1A'
-    - &selectedActive '#616161' # Gray 700
-    - &selectedInactive '#37474F75' # Blue Gray 800 with 46% opacity
-    - &tabDropBackground '#61616170'
+  overlays:
+    - &indentationOverlay '#FFFFFF1A'
+    - &selectedActiveOverlay '#ffffff29'
+    - &selectedInactiveOverlay '#37474F75' # Blue Gray 800 with 46% opacity
   temporary: # awaiting fix
     - &blue300 '#64B5F6' # Temporary Property Quotes
     - &yellow500 '#FFEB3B' # Temporary Quotes
@@ -75,13 +74,13 @@ colors:
   errorForeground: *redA400 # Overall foreground color for error messages (this color is only used if not overridden by a component)
 
   # Button Control
-  button.background: *selectedActive # Button background color
+  button.background: *secondaryAccentColor # Button background color
   button.foreground: *primaryForeground # Button foreground color
   button.border: # Button border color
   button.hoverBackground: # Button background color when hovering
   button.secondaryBackground: *primaryBackground # Secondary button background color.
   button.comment: *primaryForeground # Secondary button foreground color.
-  button.secondaryHoverBackground: *primaryBackground # Secondary button background color when hovering.
+  button.secondaryHoverBackground: # Secondary button background color when hovering.
 
   # Dropdown Control
   dropdown.background: *primaryBackground # Dropdown background
@@ -112,19 +111,19 @@ colors:
 
   # Badge
   badge.foreground: *primaryForeground # Badge foreground color
-  badge.background: *selectedActive # Badge background color
+  badge.background: *selectedActiveOverlay # Badge background color
 
   # Progress Bar
   progressBar.background: *primaryAccentColor # Background color of the progress bar shown for long running operations
 
   # List & Trees
-  list.activeSelectionBackground: *selectedActive # List/Tree background color for the selected item when the list/tree is active
+  list.activeSelectionBackground: *selectedActiveOverlay # List/Tree background color for the selected item when the list/tree is active
   list.activeSelectionForeground: *primaryForeground # List/Tree foreground color for the selected item when the list/tree is active
-  list.dropBackground: *selectedActive # List/Tree drag and drop background when moving items around using the mouse
-  list.focusBackground: *selectedInactive # List/Tree background color for the focused item when the list/tree is active
+  list.dropBackground: *selectedActiveOverlay # List/Tree drag and drop background when moving items around using the mouse
+  list.focusBackground: *selectedInactiveOverlay # List/Tree background color for the focused item when the list/tree is active
   list.highlightForeground: *blueA400 # List/Tree foreground color of the match highlights when searching inside the list/tree
-  list.hoverBackground: *selectedInactive # List/Tree background when hovering over items using the mouse
-  list.inactiveSelectionBackground: *selectedInactive # List/Tree background color for the selected item when the list/tree is inactive
+  list.hoverBackground: *selectedInactiveOverlay # List/Tree background when hovering over items using the mouse
+  list.inactiveSelectionBackground: *selectedInactiveOverlay # List/Tree background color for the selected item when the list/tree is inactive
   list.inactiveSelectionForeground: # List/Tree foreground color for the selected item when the list/tree is inactive. An active list/tree has keyboard focus, an inactive does not
   list.warningForeground: *orangeA400 # Color of warning decorations in the explorer
   list.errorForeground: *redA400 # Color of error decorations in the explorer
@@ -154,7 +153,7 @@ colors:
   # Editor Group & Tabs
   editorGroup.background: # Background color of an editor group. The background color shows up when dragging editor groups around
   editorGroup.border: *secondaryAccentColor # Color to separate multiple editor groups from each other
-  editorGroup.dropBackground: *tabDropBackground # Background color when dragging editors around
+  editorGroup.dropBackground: *selectedActiveOverlay # Background color when dragging editors around
   editorGroupHeader.noTabsBackground: # Background color of the editor group title header when Tabs are disabled
   editorGroupHeader.tabsBackground: *tertiaryBackground # Background color of the Tabs container
   editorGroupHeader.tabsBorder: # Border color of the editor group title header when tabs are enabled. Editor groups are the containers of editors
@@ -175,7 +174,7 @@ colors:
   editorLineNumber.foreground: *secondaryForeground
   editorCursor.foreground:
 
-  editor.selectionBackground: *selectedActive # Color of the editor selection
+  editor.selectionBackground: *selectedActiveOverlay # Color of the editor selection
   editor.selectionHighlightBackground: *blueGray900 # Color for regions with the same content as the selection
   editor.inactiveSelectionBackground: # Color of the selection in an inactive editor
   editor.foldBackground: !alpha [*secondaryBackground, 80] # Background color for folded ranges
@@ -184,13 +183,13 @@ colors:
   editor.wordHighlightStrongBackground: !alpha [*greenA400, 50] # Background color of a symbol during write-access, for example when writing to a variable
 
   editor.findMatchBackground: !alpha [*orangeA400, 80]
-  editor.findMatchHighlightBackground: !alpha [*white, 40] # Color of the other search matches
-  editor.findRangeHighlightBackground: *selectedInactive # Color the range limiting the search
+  editor.findMatchHighlightBackground: *selectedActiveOverlay # Color of the other search matches
+  editor.findRangeHighlightBackground: *selectedInactiveOverlay # Color the range limiting the search
 
   editor.hoverHighlightBackground: !alpha [*blueA400, 50] # Highlight below the word for which a hover is shown
 
   editor.lineHighlightBackground: # Background color for the highlight of line at the cursor position
-  editor.lineHighlightBorder: *selectedActive # Background color for the border around the line at the cursor position
+  editor.lineHighlightBorder: *selectedActiveOverlay # Background color for the border around the line at the cursor position
 
   editorLink.activeForeground: *blueA400 # Color of active links
   editor.rangeHighlightBackground: !alpha [*secondaryAccentColor, 15] # Background color of highlighted ranges, like by Quick Open and Find features
@@ -200,10 +199,10 @@ colors:
   editor.snippetFinalTabstopHighlightBackground: *primaryBackground # Highlight background color of the final tabstop of a snippet
   editor.snippetFinalTabstopHighlightBorder: *greenA400 # Highlight border color of the final tabstop of a snippet
 
-  editorWhitespace.foreground: *indentation # Color of whitespace characters in the editor
-  editorIndentGuide.background: *indentation # Color of the editor indentation guides
+  editorWhitespace.foreground: *indentationOverlay # Color of whitespace characters in the editor
+  editorIndentGuide.background: *indentationOverlay # Color of the editor indentation guides
   editorIndentGuide.activeBackground: !alpha [*white, 45] # Color of the active indentation guide
-  editorRuler.foreground: *indentation # Color of the editor rulers
+  editorRuler.foreground: *indentationOverlay # Color of the editor rulers
 
   editorCodeLens.foreground: *secondaryForeground # Foreground color of an editor CodeLens
 
@@ -265,7 +264,7 @@ colors:
   editorSuggestWidget.border: # Border color of the suggestion widget
   editorSuggestWidget.foreground: *primaryForeground # Foreground color of the suggestion widget
   editorSuggestWidget.highlightForeground: # Color of the match highlights in the suggestion widget
-  editorSuggestWidget.selectedBackground: *selectedActive # Background color of the selected entry in the suggestion widget
+  editorSuggestWidget.selectedBackground: *selectedActiveOverlay # Background color of the selected entry in the suggestion widget
 
   editorHoverWidget.background: *primaryBackground # Background color of the editor hover
   editorHoverWidget.border: *secondaryForeground # Border color of the editor hover
@@ -278,7 +277,7 @@ colors:
   editorMarkerNavigationWarning.background: # Editor marker navigation widget warning color
 
   # Peek View Colors
-  peekView.border: *selectedActive # Color of the peek view borders and arrow
+  peekView.border: *selectedActiveOverlay # Color of the peek view borders and arrow
   peekViewEditor.background: *primaryBackground # Background color of the peek view editor
   peekViewEditorGutter.background: # Background color of the gutter in the peek view editor
   peekViewEditor.matchHighlightBackground: !alpha [*yellowA400, 80] # Match highlight color in the peek view editor
@@ -286,7 +285,7 @@ colors:
   peekViewResult.fileForeground: *primaryForeground # Foreground color for file nodes in the peek view result list
   peekViewResult.lineForeground: *primaryForeground # Foreground color for line nodes in the peek view result list
   peekViewResult.matchHighlightBackground: !alpha [*yellowA400, 80] # Match highlight color in the peek view result list
-  peekViewResult.selectionBackground: *selectedActive # Background color of the selected entry in the peek view result list
+  peekViewResult.selectionBackground: *selectedActiveOverlay # Background color of the selected entry in the peek view result list
   peekViewResult.selectionForeground: *primaryForeground # Foreground color of the selected entry in the peek view result list
   peekViewTitle.background: *tertiaryBackground # Background color of the peek view title area
   peekViewTitleDescription.foreground: *secondaryForeground # Color of the peek view title info

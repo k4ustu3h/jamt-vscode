@@ -160,7 +160,7 @@ colors:
   tab.activeBackground: *primaryBackground # Active Tab background color
   tab.activeForeground: *primaryForeground # Active Tab foreground color in an active group
   tab.border: *tertiaryBackground # Border to separate Tabs from each other
-  tab.activeBorderTop: !alpha [*primaryAccentColor, 80] # A border drawn to the top of the active tab
+  tab.activeBorderTop: *primaryAccentColor # A border drawn to the top of the active tab
   tab.activeBorder: # A border drawn to the bottom of the active tab
   tab.unfocusedActiveBorder: # A border drawn to the bottom of the active tab in an editor group that is not focused
   tab.inactiveBackground: *secondaryBackground # Inactive Tab background color

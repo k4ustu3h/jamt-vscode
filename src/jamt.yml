@@ -236,8 +236,10 @@ colors:
 
   editorError.foreground: *redA400 # Foreground color of error squigglies in the editor
   editorError.border: # Border color of error squigglies in the editor
-  editorWarning.foreground: *blueA400 # Foreground color of warning squigglies in the editor
+  editorWarning.foreground: *orangeA400 # Foreground color of warning squigglies in the editor
   editorWarning.border: # Border color of warning squigglies in the editor
+  editorInfo.foreground: *blueA400 # Foreground color of warning squigglies in the editor
+  editorInfo.border: # Border color of warning squigglies in the editor
 
   editorGutter.background: # Background color of the editor gutter
   editorGutter.modifiedBackground: !alpha [*blueA400, 80] # Editor gutter background color for lines that are modified

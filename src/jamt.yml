@@ -463,6 +463,13 @@ tokenColors:
       foreground: *yellowA400
       fontStyle: italic
 
+  - name: Markup strikethrough
+    scope:
+      - markup.strikethrough
+    settings:
+      foreground: *secondaryForeground
+      fontStyle: strikethrough
+
   - name: Bullets, lists (prose)
     scope:
       - beginning.punctuation.definition.list.markdown

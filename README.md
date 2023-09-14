@@ -90,6 +90,8 @@ This theme was originally created by the following person and a bunch of [awesom
 
 If you'd like to contribute to this theme, please read the [contributing guidelines](./.github/CONTRIBUTING.md).
 
+## [Changelog](./CHANGELOG.md)
+
 ## License
 
 [MIT License](./LICENSE)

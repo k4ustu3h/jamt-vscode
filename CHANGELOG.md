@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.1] - 2023-09-15
+
+### Added
+
+-   Add Markdown strikethrough font style and color([dracula/visual-studio-code/pull/233](https://github.com/dracula/visual-studio-code/pull/233))
+
+-   Set color for inline chat region highlight ([dracula/visual-studio-code/commit/61743d6](https://github.com/dracula/visual-studio-code/commit/61743d6ea21cde34d9ad1009ec784ffe6f5e457c))
+
+### Fixed
+
+-   Fix warning and info colors ([dracula/visual-studio-code/pull/198](https://github.com/dracula/visual-studio-code/pull/198))
+
 ## [1.1.0] - 2022-07-15
 
 ### Added
@@ -45,5 +57,6 @@ Please feel free to request changes or leave feedback.
 
 > The original Dracula Theme changelog can be found [here](https://github.com/dracula/visual-studio-code/blob/master/CHANGELOG.md)
 
+[1.1.1]: https://github.com/k4ustu3h/jamt-vscode/releases/tag/1.1.1
 [1.1.0]: https://github.com/k4ustu3h/jamt-vscode/releases/tag/1.1.0
 [1.0.0]: https://github.com/k4ustu3h/jamt-vscode/releases/tag/1.0.0

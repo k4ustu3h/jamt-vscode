@@ -53,9 +53,9 @@
         ]
     },
     "devDependencies": {
-        "eslint": "8.37.0",
+        "eslint": "8.49.0",
         "js-yaml": "4.1.0",
-        "prettier": "2.8.7",
+        "prettier": "3.0.3",
         "vsce": "2.15.0"
     }
 }

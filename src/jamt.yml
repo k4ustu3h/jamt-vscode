@@ -258,6 +258,7 @@ colors:
   diffEditor.insertedTextBorder: # Outline color for inserted text
   diffEditor.removedTextBackground: !alpha [*redA400, 50] # Background color for removed text
   diffEditor.removedTextBorder: # Outline color for removed text
+  inlineChat.regionHighlight: *primaryBackground # Background color for the inline chat diff region
 
   # Editor Widget Colors
   editorWidget.background: *secondaryBackground # Background color of editor widgets, such as Find/Replace
